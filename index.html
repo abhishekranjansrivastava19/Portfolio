@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Ranjan Srivastava — Agentic AI & Full-Stack Engineer</title>
+  <meta name="description" content="Portfolio of Abhishek Ranjan Srivastava — Software Development Engineer specialising in Agentic AI, Generative AI and full-stack MERN development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" id="loader"><div class="loader-ring"></div><span>AR<b>S</b></span></div>
+
+  <canvas id="bg"></canvas>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="progress" id="progress"></div>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">&lt;<span>ARS</span>/&gt;</a>
+    <nav>
+      <ul id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="btn-mini">Hire me</a></li>
+      </ul>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow reveal"><span class="pulse"></span> Available for new opportunities</p>
+        <h1 class="reveal">Hi, I'm <span class="grad glitch" data-text="Abhishek">Abhishek</span><br />Ranjan Srivastava</h1>
+        <p class="typed-line reveal">I build <span id="typed" class="grad-2"></span><span class="caret"></span></p>
+        <p class="lead reveal">Software Development Engineer with 4+ years of experience shipping scalable web apps and AI-powered products — from voice sales agents to ERPs serving 10,000+ users.</p>
+        <div class="cta reveal">
+          <a href="#projects" class="btn primary"><span>View my work</span><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="#contact" class="btn ghost">Let's talk</a>
+          <a href="Abhishek_Ranjan_Srivastava_Resume.pdf" class="btn ghost" download>Résumé ↓</a>
+        </div>
+        <div class="socials reveal">
+          <a href="https://github.com/abhishekranjansrivastava19" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.3 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.200-1.200 3.200-1.200.6 1.600.2 2.800.1 3.100.8.8 1.200 1.800 1.200 3.100 0 4.400-2.700 5.400-5.300 5.700.4.4.8 1.100.8 2.200v3.200c0 .3.2.7.8.6A11.500 11.500 0 0 0 12 .5z"/></svg></a>
+          <a href="https://www.linkedin.com/in/abhishek7905355614" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.500 9.500h3.800v1.600h.1c.5-1 1.800-2 3.800-2 4 0 4.800 2.600 4.800 6V21h-4v-5.200c0-1.200 0-2.800-1.700-2.800s-2 1.300-2 2.700V21h-4z"/></svg></a>
+          <a href="mailto:abhishekranjansrivastava19@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2v.5l8 5.500 8-5.500V7zm16 3-8 5.500L4 10v7h16z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit" id="orbit">
+          <div class="core"><span>AI</span></div>
+          <div class="ring r1"><b class="dot" data-l="React"></b><b class="dot" data-l="Node"></b></div>
+          <div class="ring r2"><b class="dot" data-l="Python"></b><b class="dot" data-l="MongoDB"></b><b class="dot" data-l="SQL"></b></div>
+          <div class="ring r3"><b class="dot" data-l="LangChain"></b><b class="dot" data-l="ElevenLabs"></b></div>
+        </div>
+        <div class="float-card c1"><small>Lead conversion</small><strong>+60%</strong></div>
+        <div class="float-card c2"><small>Users served</small><strong>10,000+</strong></div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Agentic AI</span><span>✦</span><span>Generative AI</span><span>✦</span><span>MERN Stack</span><span>✦</span><span>Voice Agents</span><span>✦</span><span>React Native</span><span>✦</span><span>Python</span><span>✦</span><span>LangChain</span><span>✦</span><span>MS SQL</span><span>✦</span>
+        <span>Agentic AI</span><span>✦</span><span>Generative AI</span><span>✦</span><span>MERN Stack</span><span>✦</span><span>Voice Agents</span><span>✦</span><span>React Native</span><span>✦</span><span>Python</span><span>✦</span><span>LangChain</span><span>✦</span><span>MS SQL</span><span>✦</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="sec-head reveal"><span class="idx">01</span><h2>About <span class="grad">me</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I'm a results-driven engineer who blends <strong>full-stack craftsmanship</strong> with <strong>applied AI</strong>. Over 4+ years I've delivered production-grade CRM platforms, AI voice sales agents, School Management ERPs and cross-platform mobile apps.</p>
+          <p>Right now I'm architecting agentic systems at Aarav Tech Services and pursuing an <strong>M.S. in Data Science &amp; AI</strong> with Woolf University, AlmaBetter &amp; IIT Guwahati. I'm Microsoft Certified with strong Python/ML chops — scikit-learn, Pandas and NumPy.</p>
+          <div class="terminal">
+            <div class="bar"><i></i><i></i><i></i><span>~/abhishek.js</span><em>JavaScript</em><button class="copy" type="button" aria-label="Copy code">copy</button></div>
+<pre><code><span class="k">const</span> <span class="v">abhishek</span> = {
+  <span class="p">role</span>: <span class="s">"Software Development Engineer"</span>,
+  <span class="p">focus</span>: [<span class="s">"Agentic AI"</span>, <span class="s">"GenAI"</span>, <span class="s">"MERN"</span>],
+  <span class="p">learning</span>: <span class="s">"M.S. Data Science &amp; AI"</span>,
+  <span class="p">available</span>: <span class="k">true</span>
+};</code></pre>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><strong data-count="4" data-suffix="+">0</strong><span>Years experience</span></div>
+          <div class="stat reveal"><strong data-count="60" data-suffix="%">0</strong><span>Lead conversion boost</span></div>
+          <div class="stat reveal"><strong data-count="10000" data-suffix="+">0</strong><span>ERP users served</span></div>
+          <div class="stat reveal"><strong data-count="70" data-suffix="%">0</strong><span>Manual effort cut</span></div>
+        </div>
+      </div>
+          <div class="code-head reveal"><span>// under the hood</span></div>
+      <div class="code-grid">
+          <div class="terminal reveal"><div class="bar"><i></i><i></i><i></i><span>stack.ts</span><em>TypeScript</em><button class="copy" type="button" aria-label="Copy code">copy</button></div>
+<pre><code><span class="k">const</span> <span class="v">stack</span> = {
+  <span class="p">ai</span>: [<span class="s">"Generative AI"</span>, <span class="s">"Agentic AI"</span>, <span class="s">"LangChain"</span>],
+  <span class="p">voice</span>: [<span class="s">"ElevenLabs"</span>, <span class="s">"Telephony"</span>],
+  <span class="p">frontend</span>: [<span class="s">"React"</span>, <span class="s">"Next.js"</span>, <span class="s">"Redux"</span>],
+  <span class="p">backend</span>: [<span class="s">"Node.js"</span>, <span class="s">"Express"</span>, <span class="s">"REST"</span>],
+  <span class="p">data</span>: [<span class="s">"MongoDB"</span>, <span class="s">"MS SQL"</span>, <span class="s">"MySQL"</span>],
+  <span class="p">mobile</span>: <span class="s">"React Native"</span>
+};</code></pre></div>
+          <div class="terminal reveal"><div class="bar"><i></i><i></i><i></i><span>voice_agent.py</span><em>Python</em><button class="copy" type="button" aria-label="Copy code">copy</button></div>
+<pre><code><span class="c"># AI Voice Sales Agent (simplified)</span>
+<span class="k">async def</span> <span class="f">run_campaign</span>(leads):
+    <span class="k">for</span> lead <span class="k">in</span> leads:
+        call  = <span class="k">await</span> telephony.<span class="f">dial</span>(lead.phone)
+        reply = <span class="k">await</span> agent.<span class="f">talk</span>(call)
+        elevenlabs.<span class="f">speak</span>(reply.text)
+        crm.<span class="f">log_call</span>(lead.id, reply.outcome)
+
+<span class="c"># lead conversion  →  +60%</span></code></pre></div>
+          <div class="terminal reveal"><div class="bar"><i></i><i></i><i></i><span>impact.js</span><em>JavaScript</em><button class="copy" type="button" aria-label="Copy code">copy</button></div>
+<pre><code><span class="k">const</span> <span class="v">impact</span> = {
+  <span class="p">leadConversion</span>: <span class="s">"+60%"</span>,
+  <span class="p">erpUsers</span>: <span class="s">"10,000+"</span>,
+  <span class="p">manualEffortCut</span>: <span class="s">"70%"</span>,
+  <span class="p">slaAdherence</span>: <span class="s">"95%+"</span>,
+  <span class="p">ticketsPerMonth</span>: <span class="s">"50+"</span>
+};</code></pre></div>
+          <div class="terminal reveal"><div class="bar"><i></i><i></i><i></i><span>career.json</span><em>JSON</em><button class="copy" type="button" aria-label="Copy code">copy</button></div>
+<pre><code>{
+  <span class="p">"career"</span>: [
+    { <span class="p">"role"</span>: <span class="s">"Software Development Engineer"</span>,
+      <span class="p">"at"</span>: <span class="s">"Aarav Tech Services LLP"</span>,
+      <span class="p">"when"</span>: <span class="s">"Aug 2025 – Present"</span> },
+    { <span class="p">"role"</span>: <span class="s">"Software Development Engineer"</span>,
+      <span class="p">"at"</span>: <span class="s">"DPS Technologies"</span>,
+      <span class="p">"when"</span>: <span class="s">"Sep 2023 – Aug 2025"</span> },
+    { <span class="p">"role"</span>: <span class="s">"Technical Support Engineer"</span>,
+      <span class="p">"at"</span>: <span class="s">"DPS Technologies"</span>,
+      <span class="p">"when"</span>: <span class="s">"Mar 2022 – Aug 2023"</span> }
+  ]
+}</code></pre></div>
+          <div class="terminal reveal"><div class="bar"><i></i><i></i><i></i><span>education.sql</span><em>SQL</em><button class="copy" type="button" aria-label="Copy code">copy</button></div>
+<pre><code><span class="k">SELECT</span> degree, institute, year
+<span class="k">FROM</span>   education
+<span class="k">WHERE</span>  status <span class="k">IN</span> (<span class="s">'completed'</span>, <span class="s">'in_progress'</span>)
+<span class="k">ORDER BY</span> year <span class="k">DESC</span>;
+
+<span class="c">-- M.S. Data Science &amp; AI  → in progress</span>
+<span class="c">-- MCA · B.Sc (PCM) · 12th · 10th → completed</span></code></pre></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="sec-head reveal"><span class="idx">02</span><h2>Tech <span class="grad">arsenal</span></h2></div>
+      <div class="skill-grid">
+        <article class="skill-card tilt reveal">
+          <h3><i>⚡</i> AI / ML</h3>
+          <div class="chips"><span>Generative AI</span><span>Agentic AI</span><span>LangChain</span><span>ElevenLabs API</span><span>scikit-learn</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Seaborn</span></div>
+        </article>
+        <article class="skill-card tilt reveal">
+          <h3><i>🎨</i> Frontend</h3>
+          <div class="chips"><span>React.js</span><span>Next.js</span><span>Redux</span><span>Tailwind CSS</span><span>Material UI</span><span>HTML5</span><span>CSS3</span><span>React Native</span></div>
+        </article>
+        <article class="skill-card tilt reveal">
+          <h3><i>🧠</i> Backend</h3>
+          <div class="chips"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Microservices</span><span>Telephony Integration</span></div>
+        </article>
+        <article class="skill-card tilt reveal">
+          <h3><i>🗄️</i> Databases</h3>
+          <div class="chips"><span>MongoDB</span><span>MS SQL Server</span><span>MySQL</span><span>Mongoose ODM</span></div>
+        </article>
+        <article class="skill-card tilt reveal">
+          <h3><i>💻</i> Languages</h3>
+          <div class="chips"><span>JavaScript (ES6+)</span><span>Python</span><span>SQL</span><span>HTML5</span><span>CSS3</span></div>
+        </article>
+        <article class="skill-card tilt reveal">
+          <h3><i>🛠️</i> Tools</h3>
+          <div class="chips"><span>Git</span><span>GitHub</span><span>Postman</span><span>VS Code</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="sec-head reveal"><span class="idx">03</span><h2>Work <span class="grad">experience</span></h2></div>
+      <div class="timeline">
+        <article class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card">
+            <header><h3>Software Development Engineer</h3><span class="date">Aug 2025 — Present</span></header>
+            <p class="company">Aarav Tech Services LLP</p>
+            <ul>
+              <li>Architected and led an <strong>AI Voice Calling Sales Agent</strong> using ElevenLabs TTS + telephony, automating outbound sales and lifting lead conversion by <strong>60%</strong>.</li>
+              <li>Built a full-stack <strong>Sales CRM</strong> (MERN + MS SQL) with real-time pipeline management, lead tracking, dashboards and automated call logging.</li>
+              <li>Developed an <strong>Employee Management System</strong> with RBAC, attendance, leave and payroll modules.</li>
+              <li>Applied Python (Pandas, NumPy, Matplotlib) for business analysis and BI reporting pipelines.</li>
+            </ul>
+            <div class="chips sm"><span>MERN</span><span>MS SQL</span><span>Python</span><span>ElevenLabs</span><span>Telephony</span></div>
+          </div>
+        </article>
+        <article class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card">
+            <header><h3>Software Development Engineer</h3><span class="date">Sep 2023 — Aug 2025</span></header>
+            <p class="company">DPS Technologies</p>
+            <ul>
+              <li>Designed and delivered a <strong>School Management ERP</strong> (web + mobile) for <strong>10,000+ users</strong> — admissions, academics, fees and staff admin.</li>
+              <li>Built a cross-platform <strong>React Native app</strong> with real-time notifications, attendance and results.</li>
+              <li>Developed an <strong>Online Examination System</strong> with secure delivery, auto-grading and analytics — cutting manual effort by <strong>70%</strong>.</li>
+              <li>Engineered RESTful APIs and optimised SQL queries for high-performance data operations.</li>
+            </ul>
+            <div class="chips sm"><span>MERN</span><span>React Native</span><span>SQL</span><span>Postman</span></div>
+          </div>
+        </article>
+        <article class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-card">
+            <header><h3>Technical Support Engineer</h3><span class="date">Mar 2022 — Aug 2023</span></header>
+            <p class="company">DPS Technologies</p>
+            <ul>
+              <li>Managed Tier 1/2 ERP support, resolving <strong>50+ tickets monthly</strong> with <strong>95%+ SLA</strong> adherence.</li>
+              <li>Administered and optimised SQL databases; ran data migrations and stakeholder reporting.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="sec-head reveal"><span class="idx">04</span><h2>Featured <span class="grad">projects</span></h2></div>
+      <div class="proj-grid">
+        <article class="proj tilt reveal featured">
+          <div class="proj-art a5"><svg viewBox="0 0 200 80"><rect class="bar" x="20" y="40" width="14" height="30"/><rect class="bar" x="44" y="26" width="14" height="44"/><rect class="bar" x="68" y="34" width="14" height="36"/><rect class="bar" x="92" y="14" width="14" height="56"/><polyline class="line" points="15,50 50,32 80,40 115,16 150,26 185,8"/><circle cx="185" cy="8" r="3"/><rect class="lock" x="150" y="44" width="30" height="24" rx="5"/><path class="lock-arc" d="M158 44v-6a7 7 0 0 1 14 0v6"/></svg></div>
+          <div class="proj-body">
+            <span class="tag">Latest · QuickBooks Integration</span>
+            <h3>QuickBooks Client Portal</h3>
+            <p>A QuickBooks-connected portal for accountants and their clients: secure QuickBooks OAuth with encrypted token storage, cached financial reports (P&amp;L, balance sheet, cash flow, AR/AP aging, GST/HST), document sharing, real-time chat, announcements and push notifications. Ships as an Express + MS SQL backend, a React web dashboard and an Expo React Native mobile app.</p>
+            <div class="chips sm"><span>QuickBooks API</span><span>Node.js</span><span>Express</span><span>MS SQL</span><span>React + Vite</span><span>React Native</span><span>Socket.IO</span><span>JWT + OTP</span></div>
+          </div>
+        </article>
+        <article class="proj tilt reveal">
+          <div class="proj-art a1"><svg viewBox="0 0 200 80"><g class="wave"><rect x="10" y="30" width="6" height="20"/><rect x="26" y="20" width="6" height="40"/><rect x="42" y="10" width="6" height="60"/><rect x="58" y="24" width="6" height="32"/><rect x="74" y="14" width="6" height="52"/><rect x="90" y="28" width="6" height="24"/><rect x="106" y="8" width="6" height="64"/><rect x="122" y="22" width="6" height="36"/><rect x="138" y="16" width="6" height="48"/><rect x="154" y="30" width="6" height="20"/><rect x="170" y="24" width="6" height="32"/></g></svg></div>
+          <div class="proj-body">
+            <span class="tag">Agentic AI</span>
+            <h3>AI Voice Sales Agent</h3>
+            <p>Fully automated outbound voice calling system — ElevenLabs + telephony + CRM integration — cutting manual outreach effort by 60%.</p>
+            <div class="chips sm"><span>ElevenLabs</span><span>Telephony</span><span>Node.js</span></div>
+          </div>
+        </article>
+        <article class="proj tilt reveal">
+          <div class="proj-art a2"><svg viewBox="0 0 200 80"><polyline class="line" points="5,65 35,50 65,58 95,30 125,40 155,15 195,22"/><circle cx="95" cy="30" r="3"/><circle cx="155" cy="15" r="3"/></svg></div>
+          <div class="proj-body">
+            <span class="tag">Sales Automation</span>
+            <h3>CRM — Sales CRM Platform</h3>
+            <p>A full-stack CRM with real-time pipeline management, lead tracking and reporting dashboards. Integrated with the AI voice agent for automated call logging, enabling end-to-end sales automation.</p>
+            <div class="chips sm"><span>MERN</span><span>MS SQL</span><span>Dashboards</span><span>AI Integration</span></div>
+          </div>
+        </article>
+        <article class="proj tilt reveal">
+          <div class="proj-art a3"><svg viewBox="0 0 200 80"><rect class="phone" x="70" y="8" width="30" height="64" rx="6"/><rect class="screen" x="110" y="18" width="52" height="44" rx="4"/><circle cx="85" cy="62" r="2"/></svg></div>
+          <div class="proj-body">
+            <span class="tag">Web + Mobile</span>
+            <h3>School Management ERP &amp; App</h3>
+            <p>Multi-module ERP serving 10,000+ users with web and React Native interfaces plus an online exam module.</p>
+            <div class="chips sm"><span>MERN</span><span>React Native</span><span>SQL</span></div>
+          </div>
+        </article>
+        <article class="proj tilt reveal">
+          <div class="proj-art a4"><svg viewBox="0 0 200 80"><circle class="n" cx="100" cy="40" r="10"/><circle class="n" cx="50" cy="20" r="6"/><circle class="n" cx="150" cy="20" r="6"/><circle class="n" cx="50" cy="60" r="6"/><circle class="n" cx="150" cy="60" r="6"/><path class="line" d="M100 40 50 20M100 40 150 20M100 40 50 60M100 40 150 60"/></svg></div>
+          <div class="proj-body">
+            <span class="tag">EMS</span>
+            <h3>Employee Management System + Attendance</h3>
+            <p>An in-house employee management platform built for Aarav Tech, with role-based access control (RBAC) and attendance tracking alongside leave and payroll modules. Running in production for the team.</p>
+            <div class="chips sm"><span>Employee Mgmt</span><span>Attendance</span><span>RBAC</span><span>Leave</span><span>Payroll</span><span>MERN</span></div>
+          </div>
+        </article>
+        <article class="proj tilt reveal">
+          <div class="proj-art a6"><svg viewBox="0 0 200 80"><rect class="stage" x="8" y="10" width="184" height="12" rx="6"/><rect class="stage" x="28" y="28" width="144" height="12" rx="6"/><rect class="stage" x="48" y="46" width="104" height="12" rx="6"/><rect class="stage" x="68" y="64" width="64" height="12" rx="6"/><circle class="cand" cx="100" cy="16" r="4"/></svg></div>
+          <div class="proj-body">
+            <span class="tag">HRMS · Recruitment</span>
+            <h3>HRMS — School Recruitment System</h3>
+            <p>A multi-tenant recruitment platform taking hiring from job posting through selection, offer and onboarding. Fully configuration-driven per organisation, with permission-based RBAC, tenant isolation, audit logs and a public careers portal.</p>
+            <div class="chips sm"><span>Node.js</span><span>MS SQL</span><span>React 19</span><span>TypeScript</span><span>TanStack Query</span><span>RBAC</span></div>
+          </div>
+        </article>
+        <article class="proj tilt reveal">
+          <div class="proj-art a7"><svg viewBox="0 0 200 80"><line class="road" x1="0" y1="66" x2="200" y2="66"/><g class="truck"><rect x="52" y="30" width="62" height="30" rx="3"/><path d="M114 38h18l10 12v10h-28z"/><circle cx="68" cy="62" r="6"/><circle cx="100" cy="62" r="6"/><circle cx="132" cy="62" r="6"/></g></svg></div>
+          <div class="proj-body">
+            <span class="tag">Transport · Logistics</span>
+            <h3>Truck Transport Management</h3>
+            <p>A transportation service management system that tracks truck income and expenditure on a per-trip basis, giving owners a clear view of what each trip earns and costs.</p>
+            <div class="chips sm"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="sec-head reveal"><span class="idx">05</span><h2>Education &amp; <span class="grad">certs</span></h2></div>
+      <div class="edu-timeline" id="eduTimeline">
+        <article class="e-item l reveal">
+          <span class="e-dot"></span>
+          <div class="e-card tilt"><div class="e-top"><span class="e-ico">🎓</span><span class="badge live">In progress</span></div><h3>M.S. — Data Science &amp; AI</h3><p>Woolf University · AlmaBetter &amp; IIT Guwahati</p><small>Nov 2025 — Present</small></div>
+        </article>
+        <article class="e-item r reveal">
+          <span class="e-dot"></span>
+          <div class="e-card tilt"><div class="e-top"><span class="e-ico">🏅</span><span class="badge gold">Certified</span></div><h3>Microsoft Certified</h3><p>Plus AlmaBetter–IIT Guwahati Data Science &amp; AI track</p><small>Certification</small></div>
+        </article>
+        <article class="e-item l reveal">
+          <span class="e-dot"></span>
+          <div class="e-card tilt"><div class="e-top"><span class="e-ico">🎓</span><span class="badge">CGPA 8.1</span></div><h3>MCA — Master of Computer Applications</h3><p>Manipal University Jaipur</p><small>2025</small></div>
+        </article>
+        <article class="e-item r reveal">
+          <span class="e-dot"></span>
+          <div class="e-card tilt"><div class="e-top"><span class="e-ico">🔬</span><span class="badge">58%</span></div><h3>B.Sc — Physics, Chemistry &amp; Mathematics</h3><p>CSJM Kanpur University</p><small>2020</small></div>
+        </article>
+        <article class="e-item l reveal">
+          <span class="e-dot"></span>
+          <div class="e-card tilt"><div class="e-top"><span class="e-ico">📘</span><span class="badge">85.6%</span></div><h3>12th — Science (PCM)</h3><p>St. Francis Xavier's Inter College</p><small>2016</small></div>
+        </article>
+        <article class="e-item r reveal">
+          <span class="e-dot"></span>
+          <div class="e-card tilt"><div class="e-top"><span class="e-ico">📗</span><span class="badge">86.5%</span></div><h3>10th — Secondary School</h3><p>St. Francis Xavier's Inter College</p><small>2014</small></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="sec-head reveal"><span class="idx">06</span><h2>Let's <span class="grad">connect</span></h2></div>
+      <p class="contact-lead reveal">Have an AI idea, a product to ship, or a team to join? My inbox is open.</p>
+      <div class="contact-term">
+          <div class="terminal reveal"><div class="bar"><i></i><i></i><i></i><span>contact.js</span><em>JavaScript</em><button class="copy" type="button" aria-label="Copy code">copy</button></div>
+<pre><code><span class="k">const</span> <span class="v">contact</span> = {
+  <span class="p">email</span>: <span class="s">"abhishekranjansrivastava19@gmail.com"</span>,
+  <span class="p">github</span>: <span class="s">"abhishekranjansrivastava19"</span>,
+  <span class="p">linkedin</span>: <span class="s">"abhishek7905355614"</span>,
+  <span class="p">openTo</span>: [<span class="s">"Agentic AI"</span>, <span class="s">"GenAI"</span>, <span class="s">"Full-Stack MERN"</span>]
+};
+
+<span class="v">contact</span>.<span class="f">say</span>(<span class="s">"Let&#39;s build something."</span>);</code></pre></div>
+      </div>
+      <div class="contact-grid">
+        <a class="c-card tilt reveal" href="mailto:abhishekranjansrivastava19@gmail.com"><small>Email</small><strong>abhishekranjansrivastava19@gmail.com</strong></a>
+        <a class="c-card tilt reveal" href="tel:+917905355614"><small>Phone</small><strong>+91-7905355614</strong></a>
+        <a class="c-card tilt reveal" href="https://github.com/abhishekranjansrivastava19" target="_blank" rel="noopener"><small>GitHub</small><strong>abhishekranjansrivastava19</strong></a>
+        <a class="c-card tilt reveal" href="https://www.linkedin.com/in/abhishek7905355614" target="_blank" rel="noopener"><small>LinkedIn</small><strong>abhishek7905355614</strong></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Abhishek Ranjan Srivastava · Crafted with HTML, CSS &amp; JS</p>
+    <button id="toTop" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
